@@ -78,6 +78,7 @@ function onDelete(td) {
         document.getElementById("employeeList").deleteRow(row.rowIndex);
         resetForm();
     }
+     --id;
 }
 function validate() {
     isValid = true;
